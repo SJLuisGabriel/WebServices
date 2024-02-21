@@ -24,8 +24,12 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-</head>
 
+    <!-- Iconos de boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<?php $current_page = basename($_SERVER['PHP_SELF']);?>
 <body>
     <!-- Topbar Start -->
     <div class="container-fluid bg-dark pt-3 d-none d-lg-block">
@@ -75,11 +79,11 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                     <div class="navbar-nav ml-auto py-0">
-                        <a href="index.php" class="nav-item nav-link active">Home</a>
-                        <a href="about.php" class="nav-item nav-link">About</a>
-                        <a href="service.php" class="nav-item nav-link">Services</a>
-                        <a href="testimonial.php" class="nav-item nav-link">Testimonial</a>
-                        <a href="contact.php" class="nav-item nav-link">Contact</a>
+                        <a href="index.php" class="nav-item nav-link <?php if ($current_page === 'index.php') echo 'active'; ?>">Home</a>
+                        <a href="about.php" class="nav-item nav-link <?php if ($current_page === 'about.php') echo 'active'; ?>">Acerca De</a>
+                        <a href="service.php" class="nav-item nav-link <?php if ($current_page === 'service.php') echo 'active'; ?>">Servicios</a>
+                        <a href="testimonial.php" class="nav-item nav-link <?php if ($current_page === 'testimonial.php') echo 'active'; ?>">Testimonios</a>
+                        <a href="contact.php" class="nav-item nav-link <?php if ($current_page === 'contact.php') echo 'active'; ?>">Contacto</a>
                     </div>
                 </div>
             </nav>
@@ -88,41 +92,4 @@
     <!-- Navbar End -->
 
 
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0">
-        <div id="header-carousel" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="w-100" src="img/jairo_carrusel.jpeg" alt="Image" style="height: 710px;">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <h4 class="text-white text-uppercase mb-md-3">DISEÑA</h4>
-                            <h1 class="display-3 text-white mb-md-4">Diseña El Sitio Web De Tus Sueños</h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="w-100" src="img/carrusel_compu.jpg" style="height: 710px;" alt="Image">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <h4 class="text-white text-uppercase mb-md-3">¿Necesitas Un Sitio WEb?</h4>
-                            <h1 class="display-3 text-white mb-md-4">Crea Sorprendentes Sitios Web Con Nosotros</h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
-                <div class="btn btn-dark" style="width: 45px; height: 45px;">
-                    <span class="carousel-control-prev-icon mb-n2"></span>
-                </div>
-            </a>
-            <a class="carousel-control-next" href="#header-carousel" data-slide="next">
-                <div class="btn btn-dark" style="width: 45px; height: 45px;">
-                    <span class="carousel-control-next-icon mb-n2"></span>
-                </div>
-            </a>
-        </div>
-    </div>
-    <!-- Carousel End -->
+   
