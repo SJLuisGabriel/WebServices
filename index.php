@@ -53,8 +53,8 @@
                             <i class="fa fa-2x fa-money-check-alt text-white"></i>
                         </div>
                         <div class="d-flex flex-column">
-                            <h5 class="">Competitive Pricing</h5>
-                            <p class="m-0">Magna sit magna dolor duo dolor labore rebum amet elitr est diam sea</p>
+                            <h5 class="">Precios Competitivos</h5>
+                            <p class="m-0">Ofrecemos tarifas competitivas para tu sitio web.</p>
                         </div>
                     </div>
                 </div>
@@ -64,8 +64,8 @@
                             <i class="fa fa-2x fa-award text-white"></i>
                         </div>
                         <div class="d-flex flex-column">
-                            <h5 class="">Best Services</h5>
-                            <p class="m-0">Magna sit magna dolor duo dolor labore rebum amet elitr est diam sea</p>
+                            <h5 class="">Mejores Servicios</h5>
+                            <p class="m-0">Garantizamos calidad en cada etapa de tu sitio web.</p>
                         </div>
                     </div>
                 </div>
@@ -75,8 +75,8 @@
                             <i class="fa fa-2x fa-globe text-white"></i>
                         </div>
                         <div class="d-flex flex-column">
-                            <h5 class="">Worldwide Coverage</h5>
-                            <p class="m-0">Magna sit magna dolor duo dolor labore rebum amet elitr est diam sea</p>
+                            <h5 class="">Cobertura Mundial</h5>
+                            <p class="m-0">Llevamos tu sitio web a cualquier parte del mundo.</p>
                         </div>
                     </div>
                 </div>
