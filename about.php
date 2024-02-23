@@ -29,7 +29,7 @@
                     <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
                         <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Sobre Nosotros</h6>
                         <h1 class="mb-3">Somos Tu Socio Confiable Para Tu Sitio Web</h1>
-                        <p>En WebOSLive, nos especializamos en ofrecer los 
+                        <p>En WebOSLive (Web Online Services Live), nos especializamos en ofrecer los 
                             mejores servicios de implementación de sitios web y soporte, 
                             todo dentro de tu presupuesto. Desde la creación inicial hasta 
                             el mantenimiento continuo, nuestro equipo experto está aquí 
@@ -42,10 +42,10 @@
                             ¡estamos aquí para ayudarte en cada paso del camino!</p>
                         <div class="row mb-4">
                             <div class="col-6">
-                                <img class="img-fluid" src="img/about-1.jpg" alt="">
+                                <img class="img-fluid" src="img/fotoGrupal.jpeg" alt="" style="height: 160px; ">
                             </div>
                             <div class="col-6">
-                                <img class="img-fluid" src="img/about-2.jpg" alt="">
+                                <img class="img-fluid" src="img/FotoGrupal2.jpeg" alt="" style="height: 160px; ">
                             </div>
                         </div>
                         <!-- <a href="" class="btn btn-primary mt-1">Book Now</a> -->
@@ -98,59 +98,6 @@
         </div>
     </div>
     <!-- Feature End -->
-
-
-    <!-- Registration Start -->
-    <div class="container-fluid bg-registration py-5" style="margin: 90px 0;">
-        <div class="container py-5">
-            <div class="row align-items-center">
-                <div class="col-lg-7 mb-5 mb-lg-0">
-                    <div class="mb-4">
-                        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Mega Offer</h6>
-                        <h1 class="text-white"><span class="text-primary">30% OFF</span> For Honeymoon</h1>
-                    </div>
-                    <p class="text-white">Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos,
-                        ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est
-                        dolor</p>
-                    <ul class="list-inline text-white m-0">
-                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Labore eos amet dolor amet diam</li>
-                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Etsea et sit dolor amet ipsum</li>
-                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Diam dolor diam elitripsum vero.</li>
-                    </ul>
-                </div>
-                <div class="col-lg-5">
-                    <div class="card border-0">
-                        <div class="card-header bg-primary text-center p-4">
-                            <h1 class="text-white m-0">Sign Up Now</h1>
-                        </div>
-                        <div class="card-body rounded-bottom bg-white p-5">
-                            <form>
-                                <div class="form-group">
-                                    <input type="text" class="form-control p-4" placeholder="Your name" required="required" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control p-4" placeholder="Your email" required="required" />
-                                </div>
-                                <div class="form-group">
-                                    <select class="custom-select px-4" style="height: 47px;">
-                                        <option selected>Select a destination</option>
-                                        <option value="1">destination 1</option>
-                                        <option value="2">destination 1</option>
-                                        <option value="3">destination 1</option>
-                                    </select>
-                                </div>
-                                <div>
-                                    <button class="btn btn-primary btn-block py-3" type="submit">Sign Up Now</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Registration End -->
-
 
     <!-- Team Start -->
     <div class="container-fluid py-5">
@@ -300,6 +247,48 @@
         </div>
     </div>
     <!-- Team End -->
+
+    <!-- Feature Start -->
+    <div class="container-fluid" style="margin-bottom: -50px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="d-flex mb-1 mb-lg-0">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
+                            <i class="fa fa-2x bx bx-book-reader text-white" style="font-size: 50px;"></i>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <h5 class="">Misión</h5>
+                            <p class="m-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi placeat eaque soluta sequi, omnis suscipit reiciendis. Necessitatibus temporibus eum voluptas nobis distinctio itaque, qui, officiis unde quia laboriosam suscipit voluptatem?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex mb-1 mb-lg-0">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
+                            <i class="fa fa-2x bx bx-show-alt text-white" style="font-size: 50px;"></i>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <h5 class="">Visión</h5>
+                            <p class="m-0">Garantizamos calidad en cada etapa de tu sitio web.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex mb-1 mb-lg-0">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
+                            <i class="fa fa-2x bx bx-donate-heart text-white" style="font-size: 50px;"></i>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <h5 class="">Valores</h5>
+                            <p class="m-0">Llevamos tu sitio web a cualquier parte del mundo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
 
 <?php
     include 'footer.php';

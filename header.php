@@ -27,6 +27,7 @@
 
     <!-- Iconos de boxicons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="img/white_egg.png" type="image/x-icon">
 
 </head>
 <?php $current_page = basename($_SERVER['PHP_SELF']);?>
