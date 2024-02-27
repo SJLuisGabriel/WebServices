@@ -9768,3 +9768,19 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+
+.imagenpequeña{
+  height: 710px !important;
+}
+
+@media only screen and (max-width: 970px) {
+  .imagenpequeña{
+    height: 390px !important;
+  }
+}
+
+a[href="https://www.000webhost.com/?utm_source=000webhostapp&utm_campaign=000_logo&utm_medium=website&utm_content=footer_img"] {
+  display: none !important;
+}
+
+

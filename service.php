@@ -57,7 +57,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="service-item bg-white text-center mb-2 py-5 px-4">
-                        <i class="fa fa-2x bx bxl-php mx-auto mb-4" style="font-size: 45px;"></i>
+                        <i class="fa fa-2x bx bxs-server mx-auto mb-4" style="font-size: 45px;"></i>
                         <h5 class="mb-2">Desarrollo de Backend</h5>
                         <p class="m-0">Si el sitio web requiere una 
                             funcionalidad más compleja o interactiva, 
@@ -100,7 +100,7 @@
     <!-- Service End -->
 
     <!-- Packages Start -->
-    <div class="container-fluid py-5">
+    <div id="paquetes" class="container-fluid py-5">
         <div class="container pt-5 pb-3">
             <div class="text-center mb-3 pb-3">
                 <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Paquetes</h6>
@@ -109,22 +109,23 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="package-item bg-white mb-2">
-                        <img class="img-fluid" src="img/package-1.jpg" alt="">
+                        <img class="img-fluid" src="img/paqueteBasico2.jpg" alt="">
                         <div class="p-4">
                             <div class="d-flex justify-content-between mb-3">
-                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Thailand</small>
-                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3 days</small>
-                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Person</small>
+                                <small class="m-0"><i class="bx bxs-devices text-primary mr-2"></i>Reponsive</small>
+                                <small class="m-0"><i class="bx bxs-file-html text-primary mr-2"></i>5 Páginas</small>
                             </div>
                             <a class="h5 text-decoration-none" href="">Básico</a>
                             <ul style="margin-top: 5px;">
-                                <li>Web Estatica</li>
-                                <li>Host</li>
+                                <li>Desarrollo de sitio web estático.</li>
+                                <li>Diseño responsive para visualización en dispositivos móviles.</li>
+                                <li>Integración básica de redes sociales.</li>
+                                <li>Soporte técnico por correo electrónico durante un mes.</li>
                             </ul>
                             <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
-                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
-                                    <h5 class="m-0">$10</h5>
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(100)</small></h6>
+                                    <h5 class="m-0">$1500 - $2000</h5>
                                 </div>
                             </div>
                         </div>
@@ -132,23 +133,25 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="package-item bg-white mb-2">
-                        <img class="img-fluid" src="img/package-2.jpg" alt="">
+                        <img class="img-fluid" src="img/paqueteInermedio.jpg" alt="">
                         <div class="p-4">
                             <div class="d-flex justify-content-between mb-3">
-                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Thailand</small>
-                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3 days</small>
-                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Person</small>
+                                <small class="m-0"><i class="bx bxs-search text-primary mr-2"></i>SEO Básico</small>
+                                <small class="m-0"><i class="bx bxs-file-html text-primary mr-2"></i>10 páginas</small>
                             </div>
-                            <a class="h5 text-decoration-none" href="">Intermedio</a>
+                            <a class="h5 text-decoration-none" href="">Estandar</a>
                             <ul style="margin-top: 5px;">
-                                <li>Web Estática</li>
-                                <li>Web Dinámica</li>
-                                <li>Host</li>
+                                <li>Desarrollo de sitio web dinámico</li>
+                                <li>Diseño personalizado con hasta 2 revisiones</li>
+                                <li>Funcionalidad de formulario de contacto y suscripción</li>
+                                <li>Integración con hasta 3 servicios de terceros (por ejemplo, Google Analytics, Mailchimp)</li>
+                                <li>SEO básico (optimización de meta etiquetas y estructura de URL)</li>
+                                <li>Soporte técnico por correo electrónico y chat durante tres meses</li>
                             </ul>
                             <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
-                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
-                                    <h5 class="m-0">$350</h5>
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.7 <small>(50)</small></h6>
+                                    <h5 class="m-0">$2000 - $2800</h5>
                                 </div>
                             </div>
                         </div>
@@ -156,75 +159,25 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="package-item bg-white mb-2">
-                        <img class="img-fluid" src="img/package-3.jpg" alt="">
+                        <img class="img-fluid" src="img/paquetePremium.jpg" alt="">
                         <div class="p-4">
                             <div class="d-flex justify-content-between mb-3">
-                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Thailand</small>
-                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3 days</small>
-                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Person</small>
+                                <small class="m-0"><i class="bx bx-envelope text-primary mr-2"></i>Correo electrónico</small>
+                                <small class="m-0"><i class="bx bxl-paypal text-primary mr-2"></i>PayPal</small>
                             </div>
                             <a class="h5 text-decoration-none" href="">Avanzado</a>
+                                <ul style="margin-top: 5px;">
+                                    <li>Desarrollo de sitio web personalizado con funcionalidades avanzadas</li>
+                                    <li>Diseño altamente personalizado con hasta 3 revisiones.</li>
+                                    <li>Integración de comercio electrónico con pasarelas de pago (por ejemplo, PayPal, Stripe).</li>
+                                    <li>Sistema de reservas, membresías o foros.</li>
+                                    <li>SEO avanzado (investigación de palabras clave, optimización de contenido).</li>
+                                    <li>Soporte técnico prioritario por correo electrónico, chat y teléfono durante seis meses.</li>
+                                </ul>    
                             <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
-                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
-                                    <h5 class="m-0">$350</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="package-item bg-white mb-2">
-                        <img class="img-fluid" src="img/package-4.jpg" alt="">
-                        <div class="p-4">
-                            <div class="d-flex justify-content-between mb-3">
-                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Thailand</small>
-                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3 days</small>
-                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Person</small>
-                            </div>
-                            <a class="h5 text-decoration-none" href="">Host</a>
-                            <div class="border-top mt-4 pt-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
-                                    <h5 class="m-0">$350</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="package-item bg-white mb-2">
-                        <img class="img-fluid" src="img/package-5.jpg" alt="">
-                        <div class="p-4">
-                            <div class="d-flex justify-content-between mb-3">
-                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Thailand</small>
-                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3 days</small>
-                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Person</small>
-                            </div>
-                            <a class="h5 text-decoration-none" href="">Host y Mantenimiento</a>
-                            <div class="border-top mt-4 pt-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
-                                    <h5 class="m-0">$350</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="package-item bg-white mb-2">
-                        <img class="img-fluid" src="img/package-6.jpg" alt="">
-                        <div class="p-4">
-                            <div class="d-flex justify-content-between mb-3">
-                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Thailand</small>
-                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3 days</small>
-                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Person</small>
-                            </div>
-                            <a class="h5 text-decoration-none" href="">Capacitación</a>
-                            <div class="border-top mt-4 pt-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
-                                    <h5 class="m-0">$350</h5>
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>5.0 <small>(35)</small></h6>
+                                    <h5 class="m-0">$2800 - $4500</h5>
                                 </div>
                             </div>
                         </div>
@@ -237,23 +190,34 @@
 
     <!-- Testimonial Start -->
     <div class="container-fluid py-5">
-        <div class="container py-5">
+        <div class="container">
             <div class="text-center mb-3 pb-3">
                 <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Testimonios</h6>
                 <h1>Qué Dicen Nuestros Clientes</h1>
             </div>
-            <div class="owl-carousel testimonial-carousel">
+            <div class="owl-carousel testimonial-carousel" >
                 <div class="text-center pb-4">
-                    <img class="img-fluid mx-auto" src="img/testimonial-1.jpg" style="width: 100px; height: 100px;" >
+                    <img class="img-fluid mx-auto" src="img/dulce2.jpg" style="width: 100px; height: 100px;" >
+                    <div class="testimonial-text bg-white p-4 mt-n5">
+                        <p class="mt-5"> Su 
+                            enfoque centrado en el cliente y su capacidad 
+                            para traducir nuestras ideas en un sitio web 
+                            funcional y atractivo son incomparables</p>
+                        <h5 class="text-truncate">Julieta Guadalupe López</h5>
+                        <span>Estudiante</span>
+                    </div>
+                </div>
+                <div class="text-center pb-4" >
+                    <img class="img-fluid mx-auto" src="img/persona3.jpg" style="width: 100px; height: 100px;" >
                     <div class="testimonial-text bg-white p-4 mt-n5">
                         <p class="mt-5">El equipo de desarrollo web capturó 
                             perfectamente la visión de mi negocio 
                             y la plasmó en un sitio web impresionante.</p>
-                        <h5 class="text-truncate">Client Name</h5>
-                        <span>Profession</span>
+                        <h5 class="text-truncate">Maria Araceli Balaguer</h5>
+                        <span>Profesora</span>
                     </div>
                 </div>
-                <div class="text-center">
+                <div class="text-center pb-4">
                     <img class="img-fluid mx-auto" src="img/gybby.jpg" style="width: 100px; height: 100px;" >
                     <div class="testimonial-text bg-white p-4 mt-n5">
                         <p class="mt-5" style="font-size: 15px;">El equipo de desarrollo web 
@@ -264,25 +228,36 @@
                         <span>Cliente</span>
                     </div>
                 </div>
-                <div class="text-center">
-                    <img class="img-fluid mx-auto" src="img/testimonial-3.jpg" style="width: 100px; height: 100px;" >
+                <div class="text-center pb-4">
+                    <img class="img-fluid mx-auto" src="img/persona4.jpg" style="width: 100px; height: 100px;" >
                     <div class="testimonial-text bg-white p-4 mt-n5">
                         <p class="mt-5">Estoy encantado con el resultado final 
                             de mi sitio web. El equipo de desarrollo web fue 
                             increíblemente receptivo a mis necesidades y deseos.</p>
-                        <h5 class="text-truncate">Client Name</h5>
-                        <span>Profession</span>
+                        <h5 class="text-truncate">Alan Fernández</h5>
+                        <span>Actor De Doblaje</span>
                     </div>
                 </div>
-                <div class="text-center">
-                    <img class="img-fluid mx-auto" src="img/testimonial-4.jpg" style="width: 100px; height: 100px;" >
+                <div class="text-center pb-4">
+                    <img class="img-fluid mx-auto" src="img/persona5.jpg" style="width: 100px; height: 100px;" >
                     <div class="testimonial-text bg-white p-4 mt-n5">
                         <p class="mt-5"> Desde el diseño inicial hasta el 
                             lanzamiento del sitio web, su 
                             capacidad para comprender mis requisitos fue impresionante. 
                             ¡Estoy extremadamente satisfecho con el resultado!</p>
-                        <h5 class="text-truncate">Client Name</h5>
-                        <span>Profession</span>
+                        <h5 class="text-truncate">Christian Charles Philip Bale</h5>
+                        <span>Actor</span>
+                    </div>
+                </div>
+                <div class="text-center pb-4">
+                    <img class="img-fluid mx-auto" src="img/nuggets.jpg" style="width: 100px; height: 100px;" >
+                    <div class="testimonial-text bg-white p-4 mt-n5">
+                        <p class="mt-5">¡Increíble experiencia trabajando con 
+                            ellos! No solo crearon un sitio web hermoso 
+                            para mi negocio, sino que también brindaron un soporte 
+                            excepcional en cada etapa del proceso</p>
+                        <h5 class="text-truncate">Ricardo García Noguez </h5>
+                        <span>Estudiante</span>
                     </div>
                 </div>
             </div>

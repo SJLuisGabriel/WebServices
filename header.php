@@ -29,6 +29,8 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="icon" href="img/white_egg.png" type="image/x-icon">
 
+    <script src="https://kit.fontawesome.com/89f6e38e78.js" crossorigin="anonymous"></script>
+
 </head>
 <?php $current_page = basename($_SERVER['PHP_SELF']);?>
 <body>
@@ -45,22 +47,23 @@
                 </div>
                 <div class="col-lg-6 text-center text-lg-right">
                     <div class="d-inline-flex align-items-center">
-                        <a class="text-primary px-3" href="">
+                        <a class="text-primary px-3" href="trofeo.php?red=Facebook">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                        <a class="text-primary px-3" href="">
-                            <i class="fab fa-twitter"></i>
+                        <a class="text-primary px-3" href="trofeo.php?red=Twitter">
+                            <i class="fa-brands fa-x-twitter"></i>
                         </a>
-                        <a class="text-primary px-3" href="">
+                        <a class="text-primary px-3" href="trofeo.php?red=Linkedin">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
-                        <a class="text-primary px-3" href="">
+                        <a class="text-primary px-3" href="trofeo.php?red=Instagram">
                             <i class="fab fa-instagram"></i>
                         </a>
-                        <a class="text-primary pl-3" href="">
+                        <a class="text-primary pl-3" href="trofeo.php?red=Youtube">
                             <i class="fab fa-youtube"></i>
                         </a>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
@@ -72,7 +75,7 @@
     <div class="container-fluid position-relative nav-bar p-0">
         <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
             <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
-                <a href="" class="navbar-brand">
+                <a href="index.php" class="navbar-brand">
                     <h1 class="m-0 text-primary"><img src="img/white_egg.png" alt="Logo" style="height:45px; margin: -10px; position: relative; left: -15px; top: -4px; margin-left: 5px;"><span class="text-dark">WebOS</span>Live</h1>
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">

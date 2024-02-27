@@ -4,51 +4,38 @@
         <div class="row pt-5">
             <div class="col-lg-3 col-md-6 mb-5">
                 <a href="" class="navbar-brand">
-                    <h1 class="text-primary"><span class="text-white">TRAVEL</span>ER</h1>
+                    <h1 class="text-primary"><span class="text-white">WebOS</span>Live</h1>
                 </a>
-                <p>Sed ipsum clita tempor ipsum ipsum amet sit ipsum lorem amet labore rebum lorem ipsum dolor. No sed vero lorem dolor dolor</p>
-                <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Follow Us</h6>
+                <p>¡Bienvenido a nuestro sitio web! Aquí encontrarás todo lo que necesitas para crear una presencia en línea exitosa. Desde diseño web hasta optimización de SEO. ¡Contáctanos hoy mismo para comenzar tu viaje digital!</p>
+                <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Sigenos</h6>
                 <div class="d-flex justify-content-start">
-                    <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-primary btn-square mr-2" href="trofeo.php?red=Facebook"><i class="fab fa-brands fa-x-twitter"></i></a>
+                    <a class="btn btn-outline-primary btn-square mr-2" href="trofeo.php?red=Twitter"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-primary btn-square mr-2" href="trofeo.php?red=Linkedin"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-primary btn-square mr-2" href="trofeo.php?red=Instagram"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-primary btn-square mr-2" href="trofeo.php?red=Youtube"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
-                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Our Services</h5>
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Nuestos Servicios</h5>
                 <div class="d-flex flex-column justify-content-start">
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Services</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Packages</a>
+                    <a class="text-white-50 mb-2" href="service.php"><i class="fa fa-angle-right mr-2"></i>Servicios</a>
+                    <a class="text-white-50 mb-2" href="service.php#paquetes"><i class="fa fa-angle-right mr-2"></i>Paquetes</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
-                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Usefull Links</h5>
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Enlaces Útiles</h5>
                 <div class="d-flex flex-column justify-content-start">
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Equipo De Trabajo</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Testimonial</a>
-                    <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i>Blog</a>
+                    <a class="text-white-50 mb-2" href="about.php"><i class="fa fa-angle-right mr-2"></i>Acerca de</a>
+                    <a class="text-white-50 mb-2" href="about.php#TeamStart"><i class="fa fa-angle-right mr-2"></i>Equipo De Trabajo</a>
+                    <a class="text-white-50 mb-2" href="testimonial.php"><i class="fa fa-angle-right mr-2"></i>Testimonial</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
-                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contact Us</h5>
-                <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
-                <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
-                <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contactanos</h5>
+                <p><i class="fa fa-phone-alt mr-2"></i>+52 1 461 277 5762</p>
+                <p><i class="fa fa-envelope mr-2"></i>info@web.os.life</p>
                 
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
-        <div class="row">
-            <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-                <p class="m-0 text-white-50">Copyright &copy; <a href="#">Domain</a>. All Rights Reserved.</a>
-                </p>
-            </div>
-            <div class="col-lg-6 text-center text-md-right">
-                <p class="m-0 text-white-50">Designed by <a href="https://htmlcodex.com">HTML Codex</a>
-                </p>
             </div>
         </div>
     </div>
@@ -72,6 +59,23 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <!-- ocultar description -->
+    <script>
+        document.getElementById('mostrar-mas').addEventListener('click', function() {
+            document.getElementById('texto-largo').style.display = 'block';
+            document.getElementById('mostrar-mas').style.display = 'none';
+            document.getElementById('mostrar-menos').style.display = 'inline';
+        });
+
+        document.getElementById('mostrar-menos').addEventListener('click', function() {
+            document.getElementById('texto-largo').style.display = 'none';
+            document.getElementById('mostrar-mas').style.display = 'inline';
+            document.getElementById('mostrar-menos').style.display = 'none';
+        });
+
+
+    </script>
 </body>
 
 </html>

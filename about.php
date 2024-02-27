@@ -45,7 +45,7 @@
                                 <img class="img-fluid" src="img/fotoGrupal.jpeg" alt="" style="height: 160px; ">
                             </div>
                             <div class="col-6">
-                                <img class="img-fluid" src="img/FotoGrupal2.jpeg" alt="" style="height: 160px; ">
+                                <img class="img-fluid" src="img/fondo2.jpg" alt="" style="height: 160px; ">
                             </div>
                         </div>
                         <!-- <a href="" class="btn btn-primary mt-1">Book Now</a> -->
@@ -100,7 +100,7 @@
     <!-- Feature End -->
 
     <!-- Team Start -->
-    <div class="container-fluid py-5">
+    <div id="TeamStart" class="container-fluid py-5">
         <div class="container pt-5 pb-3">
             <div class="text-center mb-3 pb-3">
                 <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">¿Quienes Somos?</h6>
@@ -112,10 +112,10 @@
                         <div class="team-img position-relative overflow-hidden">
                             <img class="img-fluid w-100" src="img/fredyBenson.jpg" alt="">
                             <div class="team-social">
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href="trofeo.php?red=Facebook"> <i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href="trofeo.php?red=Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href="trofeo.php?red=Linkedin"> <i class="fab fa-linkedin-in"></i> </a>
+                                <a class="btn btn-outline-primary btn-square" href="trofeo.php?red=Instagram"><i class="fab fa-instagram"></i> </a>
                             </div>
                         </div>
                         <div class="text-center py-4">
@@ -127,119 +127,110 @@
                 <div class="col-lg-3 col-md-5 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
+                            <img class="img-fluid w-100" src="img/luisangel.jpg" alt="">
                             <div class="team-social">
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href="trofeo.php?red=Facebook"> <i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href="trofeo.php?red=Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href="trofeo.php?red=Linkedin"> <i class="fab fa-linkedin-in"></i> </a>
+                                <a class="btn btn-outline-primary btn-square" href="trofeo.php?red=Instagram"><i class="fab fa-instagram"></i> </a>
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h5 class="text-truncate" style="font-size: 17px;">Luis Gabriel Sanchéz Jungo</h5>
-                            <p class="m-0"><b> Desarrollador Frontend:</b>  Con 
-                                una pasión por la creatividad y la usabilidad, 
-                                es nuestro experto en 
-                                desarrollo frontend. Con su habilidad para 
-                                traducir diseños en interfaces interactivas y 
-                                atractivas, se asegura de que cada sitio web 
-                                tenga una experiencia de usuario excepcional.</p>
+                            <h5 class="text-truncate" style="font-size: 17px;">Luis Ángel Jorge Jimenez</h5>
+                            <p class="m-0"><b> Desarrollador Frontend:</b> Con una visión 
+                            estratégica y una comprensión profunda de las necesidades del 
+                            negocio, Luis Ángel lidera el equipo 
+                            como <b>Product Owner</b>. Define la visión del producto, 
+                            establece las prioridades del backlog y trabaja en 
+                            estrecha colaboración con los interesados para 
+                            garantizar que el producto cumpla con sus expectativas y objetivos.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-5 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
+                            <img class="img-fluid w-100" style="height: 260px;" src="img/jairo.jpg" alt="">
                             <div class="team-social">
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href="trofeo.php?red=Facebook"> <i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href="trofeo.php?red=Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href="trofeo.php?red=Linkedin"> <i class="fab fa-linkedin-in"></i> </a>
+                                <a class="btn btn-outline-primary btn-square" href="trofeo.php?red=Instagram"><i class="fab fa-instagram"></i> </a>
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h5 class="text-truncate" style="font-size: 17px;">Jesús Miguel Cerda González</h5>
-                            <p class="m-0"><b>Desarrollador Backend:</b>  Con 
-                                un enfoque meticuloso y un amor por 
-                                resolver problemas, es nuestro 
-                                experto en desarrollo backend. Trabaja 
-                                incansablemente para garantizar que los 
-                                sistemas detrás de cada sitio web 
-                                funcionen sin problemas y sean seguros.</p>
+                            <h5 class="text-truncate" style="font-size: 17px;">Garcia Guerrero Jairo</h5>
+                            <p class="m-0"><b>Desarrollador Backend:</b> Jairo lidera al 
+                            equipo como <b>Scrum Master</b>. Se encarga de guiar al equipo en 
+                            la implementación de prácticas ágiles, eliminar los obstáculos 
+                            que puedan surgir y fomentar una cultura de mejora continua 
+                            para maximizar la eficiencia y la entrega de valor.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-5 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
+                            <img class="img-fluid w-100" style="height: 255px;" src="img/gabo.jpg" alt="">
                             <div class="team-social">
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href="trofeo.php?red=Facebook"> <i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href="trofeo.php?red=Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href="trofeo.php?red=Linkedin"> <i class="fab fa-linkedin-in"></i> </a>
+                                <a class="btn btn-outline-primary btn-square" href="trofeo.php?red=Instagram"><i class="fab fa-instagram"></i> </a>
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h5 class="text-truncate">Garcia Guerrero Jairo</h5>
-                            <p class="m-0"><b> Diseñador UX/UI:</b>  Con 
-                                un ojo para el diseño limpio y la 
-                                experiencia del usuario, es 
-                                nuestro talentoso diseñador UX/UI. 
-                                Se encarga de crear interfaces 
-                                intuitivas y visualmente atractivas 
-                                que cautivan a los usuarios y los 
-                                guían a través del contenido de 
-                                manera eficiente.
+                            <h5 class="text-truncate">Luis Gabriel Sanchez</h5>
+                            <p class="m-0"><b>Desarrollador Frontend</b>  Apasionado por la 
+                            creatividad y la usabilidad, Luis Gabriel es un experto en 
+                            desarrollo frontend. Transforma diseños en interfaces 
+                            interactivas y atractivas, asegurando una experiencia 
+                            de usuario excepcional en cada sitio web.<p>
                        </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-5 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
+                            <img class="img-fluid w-100" src="img/migue.jpg" alt="">
                             <div class="team-social">
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href="trofeo.php?red=Facebook"> <i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href="trofeo.php?red=Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href="trofeo.php?red=Linkedin"> <i class="fab fa-linkedin-in"></i> </a>
+                                <a class="btn btn-outline-primary btn-square" href="trofeo.php?red=Instagram"><i class="fab fa-instagram"></i> </a>
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h5 class="text-truncate" style="font-size: 17px;">Luis Angel Jorge Jimenez</h5>
-                            <p class="m-0"><b> Especialista en SEO:</b> 
-                                Con un profundo conocimiento de 
-                                los motores de búsqueda y las mejores 
-                                prácticas de optimización, es 
-                                nuestro especialista en SEO. Trabaja 
-                                en la sombra para garantizar que cada 
-                                sitio web esté bien posicionado en los 
-                                resultados de búsqueda y tenga la visibilidad necesaria.</p>
+                            <h5 class="text-truncate" style="font-size: 17px;">Jesús Miguel Cerda González</h5>
+                            <p class="m-0"><b> Desarrollador Backend:</b> 
+                            Con un enfoque meticuloso y un amor 
+                            por resolver problemas, Jesús Miguel 
+                            es un experto en desarrollo backend. 
+                            Trabaja incansablemente para garantizar 
+                            que los sistemas detrás de cada sitio
+                             web funcionen sin problemas y sean seguros.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-5 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
+                            <img class="img-fluid w-100" src="img/dulce.jpg" alt="">
                             <div class="team-social">
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href="trofeo.php?red=Facebook"> <i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href="trofeo.php?red=Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href="trofeo.php?red=Linkedin"> <i class="fab fa-linkedin-in"></i> </a>
+                                <a class="btn btn-outline-primary btn-square" href="trofeo.php?red=Instagram"><i class="fab fa-instagram"></i> </a>
                             </div>
                         </div>
                         <div class="text-center py-4">
                             <h5 class="text-truncate" style="font-size: 17px;">Silva Torres Dulce Dolores</h5>
-                            <p class="m-0"><b>Gerente de Proyecto:</b> Con 
-                                una mente organizada y una habilidad 
-                                para coordinar equipos, es 
-                                nuestra dedicada gerente de proyecto. 
-                                Se encarga de mantener el proyecto en 
-                                marcha, garantizando la comunicación 
-                                fluida entre el equipo y los clientes, 
-                                y asegurándose de que se cumplan los plazos y objetivos.</p>
+                            <p class="m-0"><b>Diseñador UX/UI:</b> Con un 
+                            ojo para el diseño limpio y la experiencia del 
+                            usuario, Dulce Dolores es una talentosa diseñadora
+                             UX/UI. Crea interfaces intuitivas y visualmente
+                              atractivas que cautivan a los usuarios y los guían
+                               a través del contenido de manera eficiente.</p>
                         </div>
                     </div>
                 </div>
@@ -259,8 +250,8 @@
                         </div>
                         <div class="d-flex flex-column">
                             <h5 class="">Misión</h5>
-                            <p class="m-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi placeat eaque soluta sequi, omnis suscipit reiciendis. Necessitatibus temporibus eum voluptas nobis distinctio itaque, qui, officiis unde quia laboriosam suscipit voluptatem?</p>
-                        </div>
+                            <p class="m-0">Proporcionar servicios web de primera clase que superen las expectativas de nuestros clientes.</p>
+                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -270,8 +261,8 @@
                         </div>
                         <div class="d-flex flex-column">
                             <h5 class="">Visión</h5>
-                            <p class="m-0">Garantizamos calidad en cada etapa de tu sitio web.</p>
-                        </div>
+                            <p class="m-0">Ser el socio preferido para llevar la presencia en línea al siguiente nivel.</p>
+                       </div>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -281,7 +272,7 @@
                         </div>
                         <div class="d-flex flex-column">
                             <h5 class="">Valores</h5>
-                            <p class="m-0">Llevamos tu sitio web a cualquier parte del mundo.</p>
+                            <p>Nos guíamos por los principios de Excelencia, Innovación e Integridad</p>
                         </div>
                     </div>
                 </div>

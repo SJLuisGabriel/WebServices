@@ -6,5 +6,8 @@
 		{
 			"path": "../../../../Users/luisg/Downloads/free-travel-website-template"
 		}
-	]
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "free-travel-website-template"
+	}
 }
