@@ -7,10 +7,10 @@
                     <h1 class="text-primary"><span class="text-white">WebOS</span>Live</h1>
                 </a>
                 <p>¡Bienvenido a nuestro sitio web! Aquí encontrarás todo lo que necesitas para crear una presencia en línea exitosa. Desde diseño web hasta optimización de SEO. ¡Contáctanos hoy mismo para comenzar tu viaje digital!</p>
-                <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Sigenos</h6>
+                <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Siguenos</h6>
                 <div class="d-flex justify-content-start">
-                    <a class="btn btn-outline-primary btn-square mr-2" href="trofeo.php?red=Facebook"><i class="fab fa-brands fa-x-twitter"></i></a>
-                    <a class="btn btn-outline-primary btn-square mr-2" href="trofeo.php?red=Twitter"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-primary btn-square mr-2" href="trofeo.php?red=Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-primary btn-square mr-2" href="trofeo.php?red=Twitter"><i class="fab fa-brands fa-x-twitter"></i></a>
                     <a class="btn btn-outline-primary btn-square mr-2" href="trofeo.php?red=Linkedin"><i class="fab fa-linkedin-in"></i></a>
                     <a class="btn btn-outline-primary btn-square mr-2" href="trofeo.php?red=Instagram"><i class="fab fa-instagram"></i></a>
                     <a class="btn btn-outline-primary btn-square mr-2" href="trofeo.php?red=Youtube"><i class="fab fa-youtube"></i></a>
@@ -60,22 +60,6 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 
-    <!-- ocultar description -->
-    <script>
-        document.getElementById('mostrar-mas').addEventListener('click', function() {
-            document.getElementById('texto-largo').style.display = 'block';
-            document.getElementById('mostrar-mas').style.display = 'none';
-            document.getElementById('mostrar-menos').style.display = 'inline';
-        });
-
-        document.getElementById('mostrar-menos').addEventListener('click', function() {
-            document.getElementById('texto-largo').style.display = 'none';
-            document.getElementById('mostrar-mas').style.display = 'inline';
-            document.getElementById('mostrar-menos').style.display = 'none';
-        });
-
-
-    </script>
 </body>
 
 </html>

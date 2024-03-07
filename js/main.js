@@ -68,3 +68,21 @@
     
 })(jQuery);
 
+// Ocultar Description
+function OcultarDescription (){
+    document.getElementById('mostrar-mas').addEventListener('click', function() {
+        document.getElementById('texto-largo').style.display = 'block';
+        document.getElementById('mostrar-mas').style.display = 'none';
+        document.getElementById('mostrar-menos').style.display = 'inline';
+    });
+    
+    document.getElementById('mostrar-menos').addEventListener('click', function() {
+        document.getElementById('texto-largo').style.display = 'none';
+        document.getElementById('mostrar-mas').style.display = 'inline';
+        document.getElementById('mostrar-menos').style.display = 'none';
+    });
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    OcultarDescription();
+});

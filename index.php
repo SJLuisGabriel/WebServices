@@ -7,22 +7,20 @@
         <div id="header-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100 imagenpequeña" src="img/jairo_carrusel.jpeg" alt="Image" style="height: 710px;">
+                    <img class="w-100 imagenpequeña" src="img/jairo_carrusel.jpeg" alt="Image" >
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
+                        <div class="p-5" >
                             <h4 class="text-white text-uppercase mb-md-3">DISEÑA</h4>
-                            <h1 class="display-3 text-white mb-md-4">Diseñamos El Sitio Web De Tus Sueños</h1>
-                            <!-- <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Book Now</a> -->
+                            <h1 class="display-4 text-white mb-md-6">Diseñamos El Sitio Web De Tus Sueños</h1>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100 imagenpequeña" src="img/carrusel_compu.jpg" style="height: 710px;" alt="Image">
+                    <img class="w-100 imagenpequeña " src="img/carrusel_compu.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
+                        <div class="p-5">
                             <h4 class="text-white text-uppercase mb-md-3">¿Necesitas Un Sitio WEb?</h4>
-                            <h1 class="display-3 text-white mb-md-4">Crea Sorprendentes Sitios Web Con Nosotros</h1>
-                            <!-- <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Book Now</a> -->
+                            <h1 class="display-4 text-white mb-md-4">Crea Sorprendentes Sitios Web Con Nosotros</h1>
                         </div>
                     </div>
                 </div>
